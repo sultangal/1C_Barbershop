@@ -51,6 +51,8 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <documents>Document.Запись</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.Оплата</documents>
   <enums>Enum.ДниНедели</enums>
+  <enums>Enum.СпособыОплаты</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
 </mdclass:Configuration>
