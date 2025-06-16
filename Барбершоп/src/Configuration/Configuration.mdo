@@ -50,6 +50,7 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <documents>Document.Запись</documents>
+  <documents>Document.Продажа</documents>
   <enums>Enum.ДниНедели</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
 </mdclass:Configuration>
