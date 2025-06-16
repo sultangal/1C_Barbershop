@@ -52,6 +52,7 @@
   <documents>Document.Запись</documents>
   <documents>Document.Продажа</documents>
   <documents>Document.Оплата</documents>
+  <documents>Document.Зарплата</documents>
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.СпособыОплаты</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>

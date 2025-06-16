@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d50d184b-40b1-4a8a-8b69-244df3d68cb7">
+  <producedTypes>
+    <objectType typeId="cc76fcf3-2ee2-443d-8e54-c2fe146eb2f9" valueTypeId="75f94fb0-18ca-4610-8811-40ff2faaaefa"/>
+    <refType typeId="c64430ec-af6e-429f-8907-2a401ce895d3" valueTypeId="a321afbd-6862-4f83-9546-c426fd2b874e"/>
+    <selectionType typeId="b767f6de-9267-483c-898c-a95ad870d60f" valueTypeId="24ce8d46-1bb2-4291-bc19-cf17be14e520"/>
+    <listType typeId="d07febaf-9c15-41de-811a-9419468dce9c" valueTypeId="2b1f93d6-8335-491a-a051-0207aa55fea4"/>
+    <managerType typeId="1d8da5a7-705c-4a51-aa95-a73531b521a8" valueTypeId="8619cdb7-802c-4d6e-b43a-cbc7268d6548"/>
+  </producedTypes>
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Зарплата.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="901f3fd8-598c-443c-aec4-6bd2d0f88f6d">
+    <name>Салон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Салон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Салоны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13cb4928-d294-4b86-a47d-293fdcd902db">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="abbeeb00-b484-406b-bb6a-9e731b7e70ff">
+    <producedTypes>
+      <objectType typeId="539cd2a3-a582-4ad7-b6b7-666a3409b795" valueTypeId="e8c86d92-8483-47eb-ad33-f18baf4787a7"/>
+      <rowType typeId="1c390e20-a013-44db-8277-3ce9a417acde" valueTypeId="8c7f7791-d4c7-4efc-9745-913645dc6875"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="8b07921e-b23a-4d09-9001-bc15b79405dc">
+      <name>Сорудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сорудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05499d3c-a706-4b48-a224-2ef38beace14">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
