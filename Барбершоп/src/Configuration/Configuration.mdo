@@ -22,6 +22,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.Синий</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -44,6 +45,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <styles>Style.Синий</styles>
   <catalogs>Catalog.Салоны</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
@@ -57,4 +59,5 @@
   <enums>Enum.СпособыОплаты</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияЗаписей</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
