@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bd66760-c73b-4b6e-9654-02887c9d4026">
+  <producedTypes>
+    <selectionType typeId="f0c8460f-9c52-474f-816b-f289927a6fd9" valueTypeId="629b99c1-9c6f-4927-95d9-54f8f0a29e96"/>
+    <listType typeId="789de3eb-7569-4800-bdfb-aaad53156ffe" valueTypeId="baf400cd-3cc1-49fc-af9e-4e50fdcf073f"/>
+    <managerType typeId="f64e8c2f-8ccf-4281-a241-6fda8a5c9bb9" valueTypeId="21283dd1-4873-4790-bc25-b13a81159dc3"/>
+    <recordSetType typeId="c8aa3786-1d47-4113-9f34-05822daeec57" valueTypeId="9bebc485-7e97-4507-b1b9-e7cc877443df"/>
+    <recordKeyType typeId="5dab7b1f-d76d-4813-b839-75497957266a" valueTypeId="0ca46ea2-db25-45e2-bc8a-a4cd9eb29c74"/>
+    <recordType typeId="e7cabe8a-30ab-4c73-9b5a-dfdeadc7c503" valueTypeId="b8071c7a-bc5e-49e6-a821-6a330fda3789"/>
+    <recordManagerType typeId="85e878e1-03ea-43d8-ab3c-e55eadb27710" valueTypeId="d2116b73-4825-431f-a4c1-f95ebec78508"/>
+  </producedTypes>
+  <name>ИсторияЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>История записей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0c467586-188a-4929-81d3-80c326e0d389">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="94c668e5-41f6-4d83-a281-261c471c1672">
+    <name>Салон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Салон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Салоны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2615d60e-8777-43b3-9dd7-a864280de2e5">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a183b4c-9750-4ef9-8da4-a6522e146566">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1ab3f8a6-66e0-4852-b9e7-137564c7a172">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

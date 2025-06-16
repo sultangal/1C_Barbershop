@@ -56,4 +56,5 @@
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.СпособыОплаты</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияЗаписей</informationRegisters>
 </mdclass:Configuration>
