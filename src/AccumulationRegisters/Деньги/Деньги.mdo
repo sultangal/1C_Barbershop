@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30c91a35-d7a3-4082-a8a2-693ce91e68c9">
+  <producedTypes>
+    <selectionType typeId="dfb48ec8-d22e-4ac3-be8d-7e9d3f2ec284" valueTypeId="eb96b142-c830-4938-a892-53d0bb83bd37"/>
+    <listType typeId="2f126345-fd07-4b6c-8d81-ef9564f4afe6" valueTypeId="b162b738-4554-42bb-892e-39346d81e261"/>
+    <managerType typeId="1f6d0b34-7e68-424a-ac8d-1738926020a0" valueTypeId="a36021b5-412a-4434-a5c5-73958a8c7b24"/>
+    <recordSetType typeId="92a5928f-38c7-437e-a947-1c996a9c754b" valueTypeId="7d65259a-aa54-4bc3-9142-8e45ca7265ad"/>
+    <recordKeyType typeId="56c6641e-818d-476c-9c65-7911764960b0" valueTypeId="06fc0ce6-10f5-4674-abe4-7e45ae092978"/>
+    <recordType typeId="86f08b67-6e2d-4c55-b4d9-0a1ba870db7a" valueTypeId="b24ca410-bb02-4d4f-8845-5f215a936425"/>
+  </producedTypes>
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="3360b050-837f-413a-8fa1-a3052535df67">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="14021171-66ca-4da3-aaae-64a6ae8a0c66">
+    <name>ТипДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип денежных средств</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

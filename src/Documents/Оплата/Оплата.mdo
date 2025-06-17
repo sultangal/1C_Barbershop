@@ -30,6 +30,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.Деньги</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="a0d4ae4c-5ae0-49a0-8712-a1e830da720b">

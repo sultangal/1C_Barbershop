@@ -57,7 +57,9 @@
   <documents>Document.Зарплата</documents>
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.СпособыОплаты</enums>
+  <enums>Enum.ТипыДенежныхСредств</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияЗаписей</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Деньги</accumulationRegisters>
 </mdclass:Configuration>
