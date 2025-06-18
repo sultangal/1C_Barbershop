@@ -58,6 +58,7 @@
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.СпособыОплаты</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
+  <reports>Report.Продажи</reports>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.ПроцентыПоЗарплате</informationRegisters>
