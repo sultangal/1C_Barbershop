@@ -60,6 +60,8 @@
   <enums>Enum.ТипыДенежныхСредств</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияЗаписей</informationRegisters>
+  <informationRegisters>InformationRegister.ПроцентыПоЗарплате</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Деньги</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Зарплата</accumulationRegisters>
 </mdclass:Configuration>

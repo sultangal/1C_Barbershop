@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0eb71af-7f01-4392-aeab-0a1bed7aa0c3">
+  <producedTypes>
+    <selectionType typeId="e1bd2bbb-77d0-473b-b3d6-63483abe15aa" valueTypeId="1eb6ed31-6fb0-41e0-9d79-7dfa1fa73f79"/>
+    <listType typeId="b41f4f41-925c-4842-a31d-7c1a450e461f" valueTypeId="af866b19-e9f4-42cb-aaf0-8a6c21578dae"/>
+    <managerType typeId="43367cc1-9a15-46b4-995a-5f39f4e62657" valueTypeId="ed0b1173-b247-4016-a8a4-c77d649af6ed"/>
+    <recordSetType typeId="dfd2d26d-e766-455c-b242-8d951e8523ed" valueTypeId="3750ee5d-1ea3-46ae-ac88-1e8bc315d3e3"/>
+    <recordKeyType typeId="6ee9df9d-69b3-461d-b1d7-9c171ea14252" valueTypeId="b638a6f0-abe7-4298-98d5-3887ca1da074"/>
+    <recordType typeId="7f657efb-f384-4a68-badf-5c4cd37eb2fc" valueTypeId="e9f0c8aa-0eac-44c2-a3d5-33d0b9135fb3"/>
+    <recordManagerType typeId="8d2cf9f6-c00e-400b-94c6-3918d990d1d3" valueTypeId="2b52856d-2cd9-44d4-b318-1296ffb967b3"/>
+  </producedTypes>
+  <name>ПроцентыПоЗарплате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проценты по зарплате</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0552fd01-829b-46e9-bca3-09f6b3980661">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6a87bc1a-0537-4c62-a852-2d543a5dfe23">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
