@@ -61,6 +61,7 @@
   <reports>Report.Продажи</reports>
   <reports>Report.Деньги</reports>
   <reports>Report.Зарплата</reports>
+  <dataProcessors>DataProcessor.ЖурналЗаписей</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.ПроцентыПоЗарплате</informationRegisters>
