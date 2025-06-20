@@ -60,6 +60,7 @@
   <enums>Enum.ТипыДенежныхСредств</enums>
   <reports>Report.Продажи</reports>
   <reports>Report.Деньги</reports>
+  <reports>Report.Зарплата</reports>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияЗаписей</informationRegisters>
   <informationRegisters>InformationRegister.ПроцентыПоЗарплате</informationRegisters>
