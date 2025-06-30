@@ -36,6 +36,18 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:PlannerFieldExtInfo">
+        <handlers>
+          <event>BeforeCreate</event>
+          <name>ПланировщикПередСозданием</name>
+        </handlers>
+        <handlers>
+          <event>BeforeDelete</event>
+          <name>ПланировщикПередУдалением</name>
+        </handlers>
+        <handlers>
+          <event>BeforeStartEdit</event>
+          <name>ПланировщикПередНачаломРедактирования</name>
+        </handlers>
         <width>50</width>
         <autoMaxWidth>true</autoMaxWidth>
         <height>10</height>
@@ -213,6 +225,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
