@@ -13,6 +13,7 @@
     <replacementDate>0001-01-01T00:00:00</replacementDate>
     <itemId>8fb35802-ddba-49b8-89ca-165ad0b9381d</itemId>
   </items>
+  <newItemsTextType>FormattedString</newItemsTextType>
   <alignItemBoundariesByTimeScale>true</alignItemBoundariesByTimeScale>
   <showWrappedHeaders>true</showWrappedHeaders>
   <showWrappedTimeScaleHeaders>true</showWrappedTimeScaleHeaders>
@@ -34,7 +35,7 @@
   <font xsi:type="core:AutoFont"/>
   <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
   <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
-  <itemsTimeRepresentation>BeginTime</itemsTimeRepresentation>
+  <itemsTimeRepresentation>BeginAndEndTime</itemsTimeRepresentation>
   <timeScale>
     <placement>Left</placement>
     <levels>
