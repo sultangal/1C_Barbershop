@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="1a0acd80-97db-456b-a355-2a013644f1d2">
+    <name>ОткрытьЖурналЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал записей</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>
