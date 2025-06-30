@@ -59,6 +59,10 @@
           <segments>Дата</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ДатаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ДатаРасширеннаяПодсказка</name>
           <id>12</id>
@@ -110,6 +114,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Салон</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>СалонПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>СалонРасширеннаяПодсказка</name>
           <id>18</id>
