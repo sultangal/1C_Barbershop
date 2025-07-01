@@ -849,6 +849,35 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InCommandBar</locationInCommandBar>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаОформитьПродажу</name>
+      <id>61</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаОформитьПродажуРасширеннаяПодсказка</name>
+        <id>62</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОформитьПродажу</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorDef">
+        <red>153</red>
+        <green>204</green>
+      </backColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
@@ -896,6 +925,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>ОформитьПродажу</name>
+    <title>
+      <key>ru</key>
+      <value>Оформить продажу</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОформитьПродажу</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
