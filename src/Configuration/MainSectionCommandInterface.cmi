@@ -2,8 +2,28 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>Catalog.Клиенты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Сотрудники.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Услуги.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.Должности.StandardCommand.OpenList</command>
-      <visible/>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.Запись.StandardCommand.OpenList</command>
@@ -14,11 +34,17 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.ЖурналЗаписей.StandardCommand.Open</command>
-      <visible/>
+      <command>InformationRegister.ПроцентыПоЗарплате.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>InformationRegister.Цены.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ЖурналЗаписей.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>
@@ -28,6 +54,7 @@
       <commands>Catalog.Клиенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Услуги.StandardCommand.OpenList</commands>
+      <commands>Catalog.Должности.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -42,6 +69,7 @@
       <commands>Catalog.Клиенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Услуги.StandardCommand.OpenList</commands>
+      <commands>Catalog.Должности.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
@@ -51,7 +79,6 @@
       <commands>AccumulationRegister.Деньги.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Зарплата.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
-      <commands>Catalog.Должности.StandardCommand.OpenList</commands>
       <commands>Document.Запись.StandardCommand.OpenList</commands>
       <commands>Document.Зарплата.StandardCommand.OpenList</commands>
     </orderFragments>
