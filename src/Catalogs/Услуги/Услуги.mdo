@@ -114,6 +114,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Услуги.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Услуги.Form.ФормаСписка</defaultListForm>
   <attributes uuid="2c1fa2d2-cead-4cf1-8476-cb7050553726">
     <name>Длительность</name>
@@ -140,6 +141,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c43e3efe-2aaf-4028-8c0e-8dbe6ab6f1f7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
