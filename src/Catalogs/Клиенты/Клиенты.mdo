@@ -115,6 +115,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Клиенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Клиенты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="33f25e92-bee9-411c-b7bc-cc2e60d08174">
     <name>Телефон</name>
     <synonym>
@@ -199,6 +200,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6b58070-e24f-4da5-aa3f-1326e7b04d6c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

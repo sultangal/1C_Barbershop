@@ -15,6 +15,7 @@
     <value>История записей</value>
   </synonym>
   <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ИсторияЗаписей.Form.ФормаСписка</defaultListForm>
   <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -113,4 +114,13 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="39f8d7f1-a869-4fcc-9c4c-ca96ecb9a500">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>
