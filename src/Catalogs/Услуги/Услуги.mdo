@@ -114,6 +114,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Услуги.Form.ФормаСписка</defaultListForm>
   <attributes uuid="2c1fa2d2-cead-4cf1-8476-cb7050553726">
     <name>Длительность</name>
     <synonym>
@@ -134,4 +135,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="5c0bc4bf-54e2-4a37-8072-e4a4728e34a0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
