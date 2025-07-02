@@ -30,10 +30,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.Зарплата.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>InformationRegister.ПроцентыПоЗарплате.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -75,12 +71,12 @@
       <group>NavigationPanelOrdinary</group>
       <commands>Document.Продажа.StandardCommand.OpenList</commands>
       <commands>Document.Оплата.StandardCommand.OpenList</commands>
+      <commands>Document.Зарплата.StandardCommand.OpenList</commands>
       <commands>Catalog.Салоны.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Деньги.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Зарплата.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
       <commands>Document.Запись.StandardCommand.OpenList</commands>
-      <commands>Document.Зарплата.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

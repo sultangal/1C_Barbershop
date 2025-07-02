@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Зарплата.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.Зарплата</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -37,6 +38,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -55,10 +57,20 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="16ace1ed-4905-45d3-b96e-af4d4acaaf36">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="abbeeb00-b484-406b-bb6a-9e731b7e70ff">
     <producedTypes>
       <objectType typeId="539cd2a3-a582-4ad7-b6b7-666a3409b795" valueTypeId="e8c86d92-8483-47eb-ad33-f18baf4787a7"/>
@@ -70,10 +82,10 @@
       <value>Сотрудники</value>
     </synonym>
     <attributes uuid="8b07921e-b23a-4d09-9001-bc15b79405dc">
-      <name>Сорудник</name>
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
-        <value>Сорудник</value>
+        <value>Сотрудник</value>
       </synonym>
       <type>
         <types>CatalogRef.Сотрудники</types>
